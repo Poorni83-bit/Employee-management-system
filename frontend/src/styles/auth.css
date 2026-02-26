@@ -1,0 +1,35 @@
+.login-bg {
+  height: 100vh;
+  background: linear-gradient(135deg, #7974d1, #3e5e93);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  color: white;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background: white;
+  color: #3b82f6;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
